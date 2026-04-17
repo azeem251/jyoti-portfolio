@@ -1,0 +1,31 @@
+.education-row{
+    padding-top: 4em;
+}
+.summyar0-conent-box h2{
+    padding-bottom: 1em;
+}
+
+.sentury-span {
+    background-color: #01a7a7;
+    padding: 0px 22px;
+    font-size: 15px;
+    border-radius: 7px;
+    color: #fff;
+}
+.loacion0-conetn-box ul{
+    list-style: disc !important;
+    padding-left: 2em;
+}
+.loacion0-conetn-box ul li{
+    margin-bottom: 1em;
+}
+.loacion0-conetn-box h5{
+    display: flex;
+    align-items: center;
+    gap:.7em;
+    color: #01a7a7;
+    flex-wrap: wrap;
+}
+.marginunorderList{
+    margin-top: 1em;
+}

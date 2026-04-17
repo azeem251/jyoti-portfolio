@@ -1,0 +1,41 @@
+.hero-conent h1{
+font-size: 4.3em;
+margin-top: 17px;
+/* font-family: "Red Hat Display", sans-serif; */
+}
+.hero__Wrapper{
+    padding-top: 3em !important;
+}
+.hero-conent h3{
+    margin-top: 2.4em;
+    color: #33b9f6;
+    font-size: 20px;
+}
+.hero-conent p{
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+#contact-hero-btn{
+    background-color: #33b9f6;
+    padding: 12px 45px;
+    border-radius: 22px;
+    margin-top: 2em !important;
+    font-weight: 700;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+.socila-links ul li  a img{
+    width: 2.3em;
+    margin-right: 7px;
+}
+.socila-links{
+    margin-top: 2em;
+}
+.socila-links ul {
+    display: flex;
+    align-items: center;
+    
+}
+.appdev-img-hero img{
+    text-align: center;
+}

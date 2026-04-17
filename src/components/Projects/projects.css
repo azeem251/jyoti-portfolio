@@ -1,0 +1,102 @@
+.imghvr-zoom-out-flip-horiz {
+    -webkit-perspective: 50em;
+    perspective: 50em;
+  }
+  .project_row{
+    padding-top: 2em;
+  }
+  .imghvr-zoom-out-flip-horiz figcaption {
+    opacity: 0;
+    -webkit-transform: rotateX(90deg) translateY(-100%) scale(0.5);
+    transform: rotateX(90deg) translateY(-100%) scale(0.5);
+  }
+  .imghvr-zoom-out-flip-horiz:hover > img,
+  .imghvr-zoom-out-flip-horiz.hover > img {
+    -webkit-transform: rotateX(-100deg) translateY(50%) scale(0.5);
+    transform: rotateX(-100deg) translateY(50%) scale(0.5);
+    opacity: 0;
+    -webkit-transition-delay: 0;
+    transition-delay: 0;
+  }
+  .imghvr-zoom-out-flip-horiz:hover figcaption,
+  .imghvr-zoom-out-flip-horiz.hover figcaption {
+    -webkit-transform: rotateX(0deg) translateY(0%) scale(1);
+    transform: rotateX(0deg) translateY(0%) scale(1);
+    opacity: 1;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+
+
+
+
+  [class^='imghvr-'],
+[class*=' imghvr-'] {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  max-width: 100%;
+  background-color:#ffffff1a;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+[class^='imghvr-'] > img,
+[class*=' imghvr-'] > img {
+  vertical-align: top;
+  max-width: 100%;
+}
+[class^='imghvr-'] figcaption,
+[class*=' imghvr-'] figcaption {
+  background-color: inherit;
+  padding: 21px 22px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+[class^='imghvr-'] a,
+[class*=' imghvr-'] a {
+  position: absolute;
+
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+[class^='imghvr-'],
+[class*=' imghvr-'],
+[class^='imghvr-']:before,
+[class^='imghvr-']:after,
+[class*=' imghvr-']:before,
+[class*=' imghvr-']:after,
+[class^='imghvr-'] *,
+[class*=' imghvr-'] *,
+[class^='imghvr-'] *:before,
+[class^='imghvr-'] *:after,
+[class*=' imghvr-'] *:before,
+[class*=' imghvr-'] *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.my-para{
+    margin-top: 12px;
+    font-size: 15px;
+}
+.show-projectbtn{
+    background-color: #246767;
+    border-radius: 11px;
+    width: 130px;
+    color: #fff !important;
+    margin: 0 auto;
+    height: 37px;
+    line-height: 35px;
+}

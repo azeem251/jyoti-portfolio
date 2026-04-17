@@ -1,0 +1,45 @@
+.about_Row{
+    padding-top: 4em;   
+}
+.about__content_box h3{
+    color: #33b9f6;;
+    letter-spacing: 1.2px;
+}
+.about__content_box p{
+    padding: 1em 0;
+    line-height: 29px;
+    font-size: 15px;
+}
+.about_linkls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutlinks-flex ul li{
+    margin-bottom: 1em;
+}
+.aboutlinks-flex ul li a{
+    margin-left: .7em;
+    color: #ffff !important;
+}
+#arrow-id{
+    color: #33b9f6;
+    
+}
+.hireMe_btn{
+    margin-top: 2em !important;
+    color: #fff !important;
+    text-align: center;
+    line-height: 72px;
+    border-radius: 41px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    padding: 13px 39px;
+    background-color: #33b9f6;
+}
+.about-img img{
+    border-radius: 22px;
+    box-shadow: 0 0 10px #246767, 0 0 51px #33b9f6, 0 0 14px #010837, 0 0 19px;
+    border: 4px solid #145e91;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+.progress-baks {
+    width: 100%;
+}
+.skill-name {
+    color: #eeedf0;
+    font-size: 12px;
+    margin: 20px 0;
+    position: relative;
+    text-transform: uppercase;
+    top: 17px;
+}
+.skill-bar {
+    background: #827f7fb8;
+    border-radius: 3px;
+    height: 9px;
+}
+.skill-percentage {
+    animation: fillBars 2.5s 1;
+    background: #01a7a7;
+    background: #01a7a7;
+    border-radius: 3px;
+    height: 9px;
+    position: relative;
+}
+.skill-percentage:before {
+    background: #fff5fd;
+    border-radius: 4px;
+    color: #000;
+    content: attr(per);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 6px;
+    position: absolute;
+    right: 0;
+    top: -35px;
+    transform: transition(50%);
+}
+.skill-percentage:after {
+    background: #005a8d;
+    border-radius: 2px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    transform: translateX(50%) rotate(45deg);
+    width: 10px;
+}
+@keyframes fillBars {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }

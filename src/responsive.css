@@ -1,0 +1,112 @@
+@media only screen and (max-width:1024px) {
+    .header_wrapper{
+        padding: 1em 1em;
+    }
+}
+@media only screen and (max-width:1104px) {
+ .header-Links{
+    display: none;
+ }
+ .hamburger{
+    display: block;
+}
+.header_wrapper{
+    padding: .5em 1em;
+}
+
+}
+@media only screen and (max-width:991px){
+    .hero-conent{
+        text-align: center;
+    }
+    .socila-links ul {
+        justify-content: center;
+    }
+
+    
+}
+@media only screen and (max-width:768px){
+    .jyoti-name{
+        font-size: 25px;
+    }
+    .hero-conent {
+        text-align: center;
+    }
+    .socila-links ul{
+        justify-content: center;
+    }
+
+    
+}
+@media only screen and (max-width:767px){
+    .flex_ro_footer{
+       display: block;
+        text-align: center;
+        line-height: 42px;
+    }
+    .fooer_links ul{
+        justify-content: center;
+    }
+    .fooer__Wrapper{
+        padding: 7px;
+    }
+    
+}
+
+@media only screen and (max-width:690px){
+    .about_linkls{
+        flex-wrap: wrap;
+    }
+
+    
+}
+@media only screen and (max-width:820px){
+    .hero-conent{
+        text-align: center;
+    }
+    .socila-links ul {
+        justify-content: center;
+    }
+
+    
+}
+@media only screen and (max-width:525px){
+    .hero-conent h1 {
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width:575px){
+    .jyoti-name{
+        font-size: 25px;
+    }
+    .header_wrapper{
+        padding: .5em .7em;
+    }
+    .summyar0-conent-box h2{
+        padding-bottom: .6em;
+    }
+    .form-box {
+        padding: 13px;
+    }
+}
+@media only screen and (max-width:574px){
+   
+    .hero-conent h3{
+        margin-top: 2em;
+    }
+    .hero-conent p{
+        margin-bottom: 2em;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .hero-conent h1 {
+        font-size: 40px;
+    }
+    .hero-conent h3{
+        margin-top: 1em;
+    }
+    .hero-conent p{
+        margin-bottom: 1em;
+    }
+}
