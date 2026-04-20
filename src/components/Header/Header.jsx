@@ -111,8 +111,8 @@ const Header = () => {
                 <div className="header-container ">
                     <div className="wrap-menu-header">
                         <div className="jyoti-name">
-                            <span>{"<Azeem"}</span>
-                            <span>{" Ansari/>"}</span>
+                            <span>{"<Jyoti"}</span>
+                            <span>{" Prajapati/>"}</span>
                         </div>
                         <div className="header-Links">
                             <ul>
