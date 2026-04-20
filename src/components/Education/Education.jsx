@@ -24,12 +24,12 @@ const Education = () => {
                                             <li>jyotiprajapati4852@gmail.com</li>
                                         </ul>
                                         
-                                        <h5>BACHELOR  OF COMPUTER APPLICATION <span className='sentury-span'>2022-2023</span></h5>
+                                        <h5>BACHELOR  OF SCIENCE <span className='sentury-span'>2018-2022</span></h5>
                                         
                                         <ul className='marginunorderList'>
-                                            <li>Greater Noida (UP) India</li>
-                                            <li>+91 8791328156</li>
-                                            <li>azeemabdul13696@gmail.com</li>
+                                            <li>Buddha Institute Of Technologye Gida Gorakhpur (2018-2022)</li>
+                                            <li>10th Co Operative Inter College Pipraich Gorakhpur (U.P Board)(2014).</li>
+                                            <li>12th Co Operative Inter College Pipraich Gorakhpur (U.P Board) (2016).</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -41,12 +41,12 @@ const Education = () => {
                                         <h5>Fluter DEVELOPER <span className='sentury-span'>2022-2023</span></h5>
                                         <p className='my-3'>I am a Android And Flutter Developer at Next BigTechnology.</p>
                                         <ul >
-                                            <li>Jamia Nagar, Okhla, New Delhi, Delhi 110025</li>
+                                            <li>GA 18, Sikar Rd, Vikas Nagar, Bhawani Nagar, Jaipur, Rajasthan 302039.</li>
                                             <li><Link to='nextbigtechnology.com' style={{color:"#ffff"}}>nextbigtechnology.com</Link></li>
                                             
                                             <li>jyotiprajapati4852@gmail.com</li>
                                         </ul>
-                                        <h5>Fluter DEVELOPER<span className='sentury-span'>2023-2024</span></h5>
+                                        <h5>FLUTER DEVELOPER<span className='sentury-span'>2023-2024</span></h5>
                                         
                                         <ul className='marginunorderList'>
                                             <li>C-23, C Block, Sector 63, Noida, Uttar Pradesh 201301</li>
