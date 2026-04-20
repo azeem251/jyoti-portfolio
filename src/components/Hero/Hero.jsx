@@ -22,13 +22,13 @@ const Hero = () => {
                                     <p>Hello <img src={hello} alt="hello img" width="20px" /> I am</p>
 
 
-                                    <h1 className="word">Azeem Ansari</h1>
+                                    <h1 className="word">Jyoti Prajapati</h1>
 
 
-                                    <h3>Frontend Developer</h3>
+                                    <h3>Flutter Developer</h3>
 
 
-                                    <p className="small-resume">1 Year of Experience</p>
+                                    <p className="small-resume">3 Years of Experience</p>
 
 
                                     <Link to="#contact" id="contact-hero-btn">Contact</Link>
@@ -38,7 +38,7 @@ const Hero = () => {
                                         <ul>
                                             <li><Link to="https://www.linkedin.com/public-profile/settings"><img src={linkedin} className="img-fluid" alt="linkeind" /></Link></li>
                                             <li><Link><img src={github} className="img-fluid" alt="github" /></Link></li>
-                                            <li to="https://wa.me/8791328156"><Link ><img src={whatspap} className="img-fluid" alt="whatsapp" /></Link></li>
+                                            <li to="https://wa.me/7617867769"><Link ><img src={whatspap} className="img-fluid" alt="whatsapp" /></Link></li>
                                         </ul>
                                     </div>
 
