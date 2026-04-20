@@ -95,7 +95,7 @@ const Projects = () => {
                                     <figcaption className="text-center">
                                         <h3>Learning Dashboard</h3>
                                         <p className="my-para">Learning analytics dashboards (LADs) can analyze user data to create individualized learning paths by recommending content, modules, or assessments based on a students progress</p>
-                                        <Link to='https://learning-dashboard-603c2.web.app' target="__blank"className="show-projectbtn">Show Project</Link>
+                                        <Link to='masala app.zip' target="__blank"className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
                                 </figure>
