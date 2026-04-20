@@ -16,15 +16,15 @@ const Education = () => {
                                 <div className='summyar0-conent-box'>
                                     <h2>Summary</h2>
                                     <div className='loacion0-conetn-box'>
-                                        <h5>Er.Azeem</h5>
-                                        <p className='my-3'>I am a Web Designer And Frontend Developer at Rainet Technology.</p>
+                                        <h5>Jyoti Prajapati</h5>
+                                        <p className='my-3'>I am a Android And Flutter Developer at Rainet Technology.</p>
                                         <ul>
-                                            <li>Greater Noida (UP) India</li>
-                                            <li>+91 8791328156</li>
-                                            <li>azeemabdul13696@gmail.com</li>
+                                            <li>Gadhwa Chowk Ward No. 4 Pipraich Goorakhpur.</li>
+                                            <li>+91 7617867769</li>
+                                            <li>jyotiprajapati4852@gmail.com</li>
                                         </ul>
                                         
-                                        <h5>BACHELOR  OF COMPUTER APPLICATION <span className='sentury-span'>2021-2022</span></h5>
+                                        <h5>BACHELOR  OF COMPUTER APPLICATION <span className='sentury-span'>2022-2023</span></h5>
                                         
                                         <ul className='marginunorderList'>
                                             <li>Greater Noida (UP) India</li>
@@ -38,20 +38,20 @@ const Education = () => {
                                 <div className='summyar0-conent-box'>
                                     <h2>Professional Experience</h2>
                                     <div className='loacion0-conetn-box'>
-                                        <h5>WEB DESIGN SPECIALIST <span className='sentury-span'>2022-2023</span></h5>
-                                        <p className='my-3'>I am a Web Designer And Frontend Developer at Rainet Technology.</p>
+                                        <h5>Fluter DEVELOPER <span className='sentury-span'>2022-2023</span></h5>
+                                        <p className='my-3'>I am a Android And Flutter Developer at Next BigTechnology.</p>
                                         <ul >
                                             <li>Jamia Nagar, Okhla, New Delhi, Delhi 110025</li>
-                                            <li><Link to='https://kreativedigitalmedia.com/' style={{color:"#ffff"}}>Kreativedigitalmedia.Com</Link></li>
+                                            <li><Link to='nextbigtechnology.com' style={{color:"#ffff"}}>nextbigtechnology.com</Link></li>
                                             
-                                            <li>azeemabdul13696@gmail.com</li>
+                                            <li>jyotiprajapati4852@gmail.com</li>
                                         </ul>
-                                        <h5>FRONTEND DEVELOPER<span className='sentury-span'>2022-2024</span></h5>
+                                        <h5>Fluter DEVELOPER<span className='sentury-span'>2023-2024</span></h5>
                                         
                                         <ul className='marginunorderList'>
                                             <li>C-23, C Block, Sector 63, Noida, Uttar Pradesh 201301</li>
                                             <li><Link to='https://rainet.co.in/' style={{color:"#ffff"}}>rainet.co.in</Link></li>
-                                            <li>Currently Working..</li>
+                                            
                                         </ul>
                                     </div>
 
