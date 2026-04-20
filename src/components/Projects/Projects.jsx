@@ -25,7 +25,7 @@ const Projects = () => {
                                         <h3>The Salon</h3>
                                         <p className="my-para"> you are new to the social media world for businesses and are confused about what to post then read ahead. We have curated the perfect list of inspirational, entertaining and educational content ideas.
                                         </p>
-                                        <Link to='https://wowlooks-138bb.web.app' target="__blank" className="show-projectbtn">Show Project</Link>
+                                        <Link to='medicalfile.zip'  download target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
                                 </figure>
