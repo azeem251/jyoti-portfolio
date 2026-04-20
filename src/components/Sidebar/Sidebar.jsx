@@ -79,8 +79,8 @@ if (element) {
                         <div className="social-links">
                             <ul>
                                 <li><Link to=""><span className="fa-brands fa-facebook facebook"></span></Link></li>
-                                <li><Link to="https://www.instagram.com/abdl_azeem__379"><span className="fa-brands fa-instagram intagram"></span></Link></li>
-                                <li><Link to="https://wa.me/8791328156"><span className="fa-brands fa-whatsapp whatsapp"></span></Link></li>
+                                <li><Link to="https://www.instagram.com"><span className="fa-brands fa-instagram intagram"></span></Link></li>
+                                <li><Link to="https://wa.me/7617867769"><span className="fa-brands fa-whatsapp whatsapp"></span></Link></li>
                                 <li><Link to="https://www.linkedin.com/public-profile/settings"><span className="fa-brands fa-linkedin linkedin"></span></Link></li>
                             </ul>
                         </div>
