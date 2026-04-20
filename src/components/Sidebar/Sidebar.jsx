@@ -75,7 +75,7 @@ if (element) {
                         <figure>
                             <img src={profileImg} alt="profile-img" className="img-fluid" />
                         </figure>
-                        <p>Er.AZEEM</p>
+                        <p>JYOTI PRAJAPATI</p>
                         <div className="social-links">
                             <ul>
                                 <li><Link to=""><span className="fa-brands fa-facebook facebook"></span></Link></li>
