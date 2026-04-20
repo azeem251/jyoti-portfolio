@@ -38,7 +38,7 @@ const Hero = () => {
                                         <ul>
                                             <li><Link to="https://www.linkedin.com/public-profile/settings"><img src={linkedin} className="img-fluid" alt="linkeind" /></Link></li>
                                             <li><Link><img src={github} className="img-fluid" alt="github" /></Link></li>
-                                            <li to="https://wa.me/7617867769"><Link ><img src={whatspap} className="img-fluid" alt="whatsapp" /></Link></li>
+                                            <li ><Link to="https://wa.me/7617867769"><img src={whatspap} className="img-fluid" alt="whatsapp" /></Link></li>
                                         </ul>
                                     </div>
 
