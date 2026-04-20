@@ -39,10 +39,10 @@ const Education = () => {
                                     <h2>Professional Experience</h2>
                                     <div className='loacion0-conetn-box'>
                                         <h5>Fluter DEVELOPER <span className='sentury-span'>2022-2023</span></h5>
-                                        <p className='my-3'>I am a Android And Flutter Developer at Next BigTechnology.</p>
+                                        <p className='my-3'>I am a Android And Flutter Developer at DotMik Software Pvt Ltd.</p>
                                         <ul >
-                                            <li>GA 18, Sikar Rd, Vikas Nagar, Bhawani Nagar, Jaipur, Rajasthan 302039.</li>
-                                            <li><Link to='nextbigtechnology.com' style={{color:"#ffff"}}>nextbigtechnology.com</Link></li>
+                                            <li>Prem nagar Block G, Gali No: 8 Najafgar New Delhi 110043.</li>
+                                            <li><Link to='nextbigtechnology.com' style={{color:"#ffff"}}>www.dotmik.com/</Link></li>
                                             
                                             <li>jyotiprajapati4852@gmail.com</li>
                                         </ul>
