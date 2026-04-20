@@ -1,4 +1,4 @@
-import profileImg from "../../assets/my-pick.jpg"
+import profileImg from "../../assets/about-pick.jpg"
 import './sidebar.css'
 import { Link, NavLink } from "react-router-dom"
 import myCV from '../../assets/my_resume.pdf'
