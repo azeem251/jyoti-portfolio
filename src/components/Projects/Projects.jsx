@@ -34,7 +34,7 @@ const Projects = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://img.freepik.com/free-vector/making-money-online-service-platform-idea-business-development-commerce-activity-payback-mobile-app-vector-flat-illustration_613284-2415.jpg?uid=R106879866&ga=GA1.1.1837532040.1775107183&semt=ais_hybrid&w=740&q=80'} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://img.freepik.com/free-vector/making-money-online-service-platform-idea-business-development-commerce-activity-payback-mobile-app-vector-flat-illustration_613284-2415.jpg?uid=R106879866&ga=GA1.1.1837532040.1775107183&semt=ais_hybrid'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
                                         <h3>Sanchalan APP</h3>
                                         <p className="my-para">Based on search results, Sanchalan is primarily a transportation and logistics management app designed for bus operators to track.</p>
