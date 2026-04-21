@@ -1,138 +1,49 @@
-import { useState } from "react";
+import './contact.css'
 
 const Contact = () => {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    number: "",
-    message: "",
-  });
-
-  const [errors, setErrors] = useState({});
-
-  const validate = () => {
-    let newErrors = {};
-
-    if (!form.name.trim()) newErrors.name = "Name is required";
-    if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/))
-      newErrors.email = "Valid email required";
-    if (!form.number.match(/^[0-9]{10}$/))
-      newErrors.number = "Valid 10 digit number required";
-    if (!form.message.trim()) newErrors.message = "Message is required";
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.id]: e.target.value });
-  };
-
-  const handleSubmit = () => {
-    if (!validate()) return;
-
-    const text = `Hello, my name is ${form.name}.
-Email: ${form.email}
-Phone: ${form.number}
-Message: ${form.message}`;
-
-    const whatsappURL = `https://wa.me/917617867769?text=${encodeURIComponent(
-      text
-    )}`;
-
-    window.open(whatsappURL, "_blank");
-  };
-
-  return (
-    <section style={styles.wrapper} id="contact_section">
-      <h2 style={styles.heading}>Contact Me</h2>
-
-      <div style={styles.formBox}>
-        <input
-          type="text"
-          id="name"
-          placeholder="Enter Name"
-          value={form.name}
-          onChange={handleChange}
-          style={styles.input}
-        />
-        <span style={styles.error}>{errors.name}</span>
-
-        <input
-          type="email"
-          id="email"
-          placeholder="Enter Email"
-          value={form.email}
-          onChange={handleChange}
-          style={styles.input}
-        />
-        <span style={styles.error}>{errors.email}</span>
-
-        <input
-          type="text"
-          id="number"
-          placeholder="Enter Number"
-          value={form.number}
-          onChange={handleChange}
-          style={styles.input}
-        />
-        <span style={styles.error}>{errors.number}</span>
-
-        <textarea
-          id="message"
-          placeholder="Message"
-          rows="5"
-          value={form.message}
-          onChange={handleChange}
-          style={styles.textarea}
-        />
-        <span style={styles.error}>{errors.message}</span>
-
-        <button onClick={handleSubmit} style={styles.button}>
-          Submit & Send WhatsApp
-        </button>
-      </div>
-    </section>
-  );
-};
-
-const styles = {
-  wrapper: {
-    padding: "40px 20px",
-    textAlign: "center",
-    background: "#f5f5f5",
-  },
-  heading: {
-    marginBottom: "20px",
-  },
-  formBox: {
-    maxWidth: "500px",
-    margin: "auto",
-    display: "flex",
-    flexDirection: "column",
-    gap: "12px",
-  },
-  input: {
-    padding: "10px",
-    fontSize: "16px",
-  },
-  textarea: {
-    padding: "10px",
-    fontSize: "16px",
-  },
-  button: {
-    padding: "12px",
-    background: "#25D366",
-    color: "#fff",
-    border: "none",
-    cursor: "pointer",
-    fontSize: "16px",
-  },
-  error: {
-    color: "red",
-    fontSize: "13px",
-    textAlign: "left",
-  },
-};
+    return (
+        <>
+            <section className='cotact_wrapper pt-4 pb-5' id='contact_section'>
+                <div className='container'>
+                    <div className='text-center wow animate__animated animate__slow 3s  animate__zoomIn'>
+                        <h2 className='text-center mb-3'>Contact Me</h2>
+                        <div className="bar"></div>
+                    </div>
+                    <p className='text-center mt-2'>Link to active social media accounts like Twitter, Facebook, Instagram, and LinkedIn to give visitors another way to engage with the business Promote helpful content and resources.</p>
+                    <div className='cotnact-row'>
+                        <div className='row g-4'>
+                            <div className='col-lg-6 wow animate__animated animate__slow 3s  animate__fadeInLeft'>
+                                <div className='contact_links-Box'>
+                                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56052.08427462649!2d77.41480744614697!3d28.592117941259158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee8f6eec5861%3A0x4a3148bd9ed55274!2sGalaxy%20Vega%20Techzone-IV!5e0!3m2!1sen!2sin!4v1707981863315!5m2!1sen!2sin" style={{ width: "100%", height: "450px", border: "0" }} allowFullScreen title='Galaxy vega market location' loading='lazy'></iframe>
+                                </div>
+                            </div>
+                            <div className='col-lg-6 wow animate__animated animate__slow 3s  animate__fadeInRight'>
+                                <div className='form-box'>
+                                    <form action="">
+                                        <div className='form_inputs'>
+                                            <input type="text" name="" id="name" placeholder='Enter Name' />
+                                        </div>
+                                        <div className='form_inputs'>
+                                            <input type="email" name="" id="name" placeholder='Enter Email' />
+                                        </div>
+                                        <div className='form_inputs'>
+                                            <input type="number" name="" id="name" placeholder='Enter Number' />
+                                        </div>
+                                        <div className='form_inputs'>
+                                          <textarea name="" id="" placeholder='Message' cols="30" rows="6"></textarea>
+                                        </div>
+                                        <div className='form_inputs'>
+                                         <input type="button" value="Submit" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
 
 export default Contact
