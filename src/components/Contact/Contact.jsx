@@ -79,7 +79,8 @@ Message: ${form.message}`;
                                             <span style={{color:'red'}}>{errors.message}</span>
                                         </div>
                                         <div className='form_inputs'>
-                                         <input type="submit" value="Submit" />
+                                         <input type="submit" value="Submit" style={{BackroundColor:"rgb(36, 103, 103);"}} />
+
                                         </div>
                                     </form>
                                 </div>
