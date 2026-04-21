@@ -20,7 +20,7 @@ const Projects = () => {
                     <div className="row g-4 justify-content-center wow animate__animated animate__slow 3s  animate__zoomInLeft">
                         <div className="col-lg-4 col-md-6">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={mediaImg} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://jyoti-two.web.app/static/media/medical.09e743bd196e3e4f30ae.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
                                         <h3>The Salon</h3>
                                         <p className="my-para"> you are new to the social media world for businesses and are confused about what to post then read ahead. We have curated the perfect list of inspirational, entertaining and educational content ideas.
