@@ -20,10 +20,10 @@ const Projects = () => {
                     <div className="row g-4 justify-content-center wow animate__animated animate__slow 3s  animate__zoomInLeft">
                         <div className="col-lg-4 col-md-6">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://jyoti-two.web.app/static/media/medical.09e743bd196e3e4f30ae.jpg'} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://img.freepik.com/premium-vector/online-rx-medical-prescription-medic-check-up-smartphone-illustration-doctor-showing-app-phone-with-prescriptions-medical-test-diagnosis-patient-online-medicine-concept_165217-210.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
                                         <h3>Medical App</h3>
-                                        <p className="my-para">App Development Self Project. The primary objective of medical education apps is to maintain a reliable database with up-to-date medical information for doctors, students and medical users.
+                                        <p className="my-para">App Development Self Project. The primary objective of medical education apps is to maintain a reliable database with up-to-date medical information for doctors, students and medical users. Top medical apps focus on clinical reference, education, and networking, providing evidence-based content for professionals and students. Key platforms include Medscape (news/reference), Epocrates (drug dosing), UpToDate (clinical decisions), and MedShr (case studies). These apps offer drug interaction checkers, 3D anatomical animations, and secure case-sharing networks
                                         </p>
                                         <Link to='medical.zip'  download target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
@@ -37,7 +37,7 @@ const Projects = () => {
                                 <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://img.freepik.com/free-vector/making-money-online-service-platform-idea-business-development-commerce-activity-payback-mobile-app-vector-flat-illustration_613284-2415.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
                                         <h3>Sanchalan APP</h3>
-                                        <p className="my-para">Based on search results, Sanchalan is primarily a transportation and logistics management app designed for bus operators to track.</p>
+                                        <p className="my-para">Based on search results, Sanchalan is primarily a transportation and logistics management app designed for bus operators to track. There are multiple apps with "Sanchalan" in their name, but the primary logistics tool is Sanchalan (by QTloads). It is a logistics management app designed to monitor vehicle movements, track fuel usage, manage driver assignments, and record transportation infractions/challans.</p>
                                         <Link to='https://doctorwebsite.vercel.app' target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
