@@ -61,11 +61,10 @@ const Projects = () => {
                         </div> */}
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={educationImg} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://img.freepik.com/free-vector/couples-families-celebrating-pride-day-together_23-2148525968.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>E Education App</h3>
-                                        <p className="my-para">E-learning mobile apps take content delivery to the next level with interactive sessions between teachers and students
-                                            wherein they can communicate and share their opinions Students can ask questions and teachers.</p>
+                                        <h3>Family Pride APP</h3>
+                                        <p className="my-para">There are multiple apps with similar names, but the primary ones are a local produce delivery service and a laundry payment solution. The "Family Pride" app is for ordering fresh, locally sourced fruits and vegetables for home delivery.</p>
                                         <Link to='https://education-psi.vercel.app' target="__blank"className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
