@@ -38,7 +38,7 @@ const Projects = () => {
                                     <figcaption className="text-center">
                                         <h3>Sanchalan APP</h3>
                                         <p className="my-para">Based on search results, Sanchalan is primarily a transportation and logistics management app designed for bus operators to track. There are multiple apps with "Sanchalan" in their name, but the primary logistics tool is Sanchalan (by QTloads). It is a logistics management app designed to monitor vehicle movements, track fuel usage, manage driver assignments, and record transportation infractions/challans.</p>
-                                        <Link to='https://doctorwebsite.vercel.app' target="__blank" className="show-projectbtn">Show Project</Link>
+                                        <Link to='https://play.google.com/store/apps/details?id=com.flutter.qtloads_sanchalan' target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
                                 </figure>
