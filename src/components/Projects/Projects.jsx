@@ -65,7 +65,7 @@ const Projects = () => {
                                     <figcaption className="text-center">
                                         <h3>Family Pride APP</h3>
                                         <p className="my-para">There are multiple apps with similar names, but the primary ones are a local produce delivery service and a laundry payment solution. The "Family Pride" app is for ordering fresh, locally sourced fruits and vegetables for home delivery.</p>
-                                        <Link to='https://education-psi.vercel.app' target="__blank"className="show-projectbtn">Show Project</Link>
+                                        <Link to='https://play.google.com/store/apps/details?id=com.comworld.familypride' target="__blank"className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
                                 </figure>
