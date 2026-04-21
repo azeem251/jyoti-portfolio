@@ -17,7 +17,7 @@ const Education = () => {
                                     <h2>Summary</h2>
                                     <div className='loacion0-conetn-box'>
                                         <h5>Jyoti Prajapati</h5>
-                                        <p className='my-3'>I am a Android And Flutter Developer at Rainet Technology.</p>
+                                        <p className='my-3'>I am a Android And Flutter Developer specialist.</p>
                                         <ul>
                                             <li>Gadhwa Chowk Ward No. 4 Pipraich Goorakhpur.</li>
                                             <li>+91 7617867769</li>
@@ -38,7 +38,7 @@ const Education = () => {
                                 <div className='summyar0-conent-box'>
                                     <h2>Professional Experience</h2>
                                     <div className='loacion0-conetn-box'>
-                                        <h5>Fluter DEVELOPER <span className='sentury-span'>2022-2023</span></h5>
+                                        <h5>Fluter DEVELOPER <span className='sentury-span'>2024-2025</span></h5>
                                         <p className='my-3'>I am a Android And Flutter Developer at DotMik Software Pvt Ltd.</p>
                                         <ul >
                                             <li>Prem nagar Block G, Gali No: 8 Najafgar New Delhi 110043.</li>
@@ -46,9 +46,10 @@ const Education = () => {
                                             
                                             <li>jyotiprajapati4852@gmail.com</li>
                                         </ul>
-                                        <h5>FLUTER DEVELOPER<span className='sentury-span'>2023-2024</span></h5>
+                                        <h5>FLUTER DEVELOPER<span className='sentury-span'>2022-2024</span></h5>
                                         
                                         <ul className='marginunorderList'>
+                                            <li>I am a Android And Flutter Developer at Rainet Technology.</li>
                                             <li>C-23, C Block, Sector 63, Noida, Uttar Pradesh 201301</li>
                                             <li><Link to='https://rainet.co.in/' style={{color:"#ffff"}}>rainet.co.in</Link></li>
                                             
