@@ -34,7 +34,7 @@ const Projects = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://play-lh.googleusercontent.com/VVJafiUEfuDVO7XJ2-d60eP7DoTH_tpDd4PxN8Fd4k3yD8L53XzdCCj-OGwB6RTCLhNXryxwCeVuE8VO7UbxVeY=h200-rw'} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://play-lh.googleusercontent.com/VVJafiUEfuDVO7XJ2-d60eP7DoTH_tpDd4PxN8Fd4k3yD8L53XzdCCj-OGwB6RTCLhNXryxwCeVuE8VO7UbxVeY=h200'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
                                         <h3>Sanchalan APP</h3>
                                         <p className="my-para">Based on search results, Sanchalan is primarily a transportation and logistics management app designed for bus operators to track.</p>
