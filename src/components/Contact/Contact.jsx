@@ -1,6 +1,45 @@
 import './contact.css'
-
+import { useState } from "react";
 const Contact = () => {
+    const [form, setForm] = useState({
+  name: "",
+  email: "",
+  number: "",
+  message: "",
+});
+
+const [errors, setErrors] = useState({});
+
+const handleChange = (e) => {
+  setForm({ ...form, [e.target.id]: e.target.value });
+};
+
+const validate = () => {
+  let newErrors = {};
+
+  if (!form.name.trim()) newErrors.name = "Name is required";
+  if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/))
+    newErrors.email = "Valid email required";
+  if (!form.number.match(/^[0-9]{10}$/))
+    newErrors.number = "Valid 10 digit number required";
+  if (!form.message.trim()) newErrors.message = "Message is required";
+
+  setErrors(newErrors);
+  return Object.keys(newErrors).length === 0;
+};
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  if (!validate()) return;
+
+  const text = `Hello, my name is ${form.name}.
+Email: ${form.email}
+Phone: ${form.number}
+Message: ${form.message}`;
+
+  const whatsappURL = `https://wa.me/917617867769?text=${encodeURIComponent(text)}`;
+  window.open(whatsappURL, "_blank");
+};
     return (
         <>
             <section className='cotact_wrapper pt-4 pb-5' id='contact_section'>
@@ -19,21 +58,28 @@ const Contact = () => {
                             </div>
                             <div className='col-lg-6 wow animate__animated animate__slow 3s  animate__fadeInRight'>
                                 <div className='form-box'>
-                                    <form action="">
+                                    <form onSubmit={handleSubmit}>
                                         <div className='form_inputs'>
-                                            <input type="text" name="" id="name" placeholder='Enter Name' />
+                                            <input type="text" name="" id="name" placeholder='Enter Name' 
+                                                  value={form.name}
+                                                      onChange={handleChange}
+                                                />
+                                            <span style={{color:'red'}}>{errors.name}</span>
                                         </div>
                                         <div className='form_inputs'>
-                                            <input type="email" name="" id="name" placeholder='Enter Email' />
+                                            <input type="email"  onChange={handleChange} name="" id="email"  value={form.email} placeholder='Enter Email' />
+                                            <span style={{color:'red'}}>{errors.email}</span>
                                         </div>
                                         <div className='form_inputs'>
-                                            <input type="number" name="" id="name" placeholder='Enter Number' />
+                                            <input type="number" name="" id="name" placeholder='Enter Number'value={form.number} onChange={handleChange}/>
+                                            <span style={{color:'red'}}>{errors.number}</span>
                                         </div>
                                         <div className='form_inputs'>
-                                          <textarea name="" id="" placeholder='Message' cols="30" rows="6"></textarea>
+                                          <textarea name="" id="message" placeholder='Message' value={form.message} onChange={handleChange} cols="30" rows="6"></textarea>
+                                            <span style={{color:'red'}}>{errors.message}</span>
                                         </div>
                                         <div className='form_inputs'>
-                                         <input type="button" value="Submit" />
+                                         <input type="submit" value="Submit" />
                                         </div>
                                     </form>
                                 </div>
