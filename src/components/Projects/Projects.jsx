@@ -34,11 +34,10 @@ const Projects = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={drsahab} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://play-lh.googleusercontent.com/VkLCH75uQl8ZURzbwUC4KssrnPxfAyxsG0_dmt7iQvEbrQVermbwv0vHMdK0NPcThdc=w240-h480-rw'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>Dr.Sahab</h3>
-                                        <p className="my-para">Doctor Sahab is a medical practice management software that helps in the efficient management of a clinic. This platform comes with the
-                                            best-in-class features, which help users.</p>
+                                        <h3>Sanchalan APP</h3>
+                                        <p className="my-para">Based on search results, Sanchalan is primarily a transportation and logistics management app designed for bus operators to track.</p>
                                         <Link to='https://doctorwebsite.vercel.app' target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
