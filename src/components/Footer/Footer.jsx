@@ -11,9 +11,9 @@ const Footer = () => {
                 <div className="fooer_links wow animate__animated animate__slow 3s  animate__fadeInUp">
                     <ul>
                         <li><Link><i className="fa-brands fa-facebook"></i></Link></li>
-                        <li><Link to="https://wa.me/8791328156"><i className="fa-brands fa-whatsapp"></i></Link></li>
-                        <li><Link to="https://www.instagram.com/abdl_azeem__379"><i className="fa-brands fa-instagram"></i></Link></li>
-                        <li><Link to="https://www.linkedin.com/public-profile/settings"><i className="fa-brands fa-linkedin"></i></Link></li>
+                        <li><Link to="https://wa.me/7617867769"><i className="fa-brands fa-whatsapp"></i></Link></li>
+                        <li><Link to="https://www.instagram.com"><i className="fa-brands fa-instagram"></i></Link></li>
+                        <li><Link to="https://www.linkedin.com/in/jyotiprajapati14/"><i className="fa-brands fa-linkedin"></i></Link></li>
                     </ul>
                 </div>
                 <p className="wow animate__animated animate__slow 3s  animate__fadeInRight">Develop By <strong>Azeem</strong></p>
