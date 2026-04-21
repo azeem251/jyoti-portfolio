@@ -75,10 +75,10 @@ const Projects = () => {
 
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={rajImg} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://jyoti-two.web.app/static/media/resturant.d3c005c6423e4e61bad2.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>IT setUp Web </h3>
-                                        <p className="my-para">When it comes to building websites, content is a necessity! Without content, your website is like a blank piece of paper or an empty toolbox – there is nothing to help or equip your visitors. The challenge is often putting together.</p>
+                                        <h3>Raj 29029 Restaurant </h3>
+                                        <p className="my-para">Raj restaurant app works with keen interest on various strategies to achieve their goal. It includes To increase their fund and revenue. Her business model is incomplete without analyzing the key activities of a company.</p>
                                         <Link to='https://itsetuptheme.vercel.app' target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
@@ -89,10 +89,10 @@ const Projects = () => {
 
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={MirchiImg} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://jyoti-two.web.app/static/media/mirchi.d554d6cd7afa4af25125.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>Learning Dashboard</h3>
-                                        <p className="my-para">Learning analytics dashboards (LADs) can analyze user data to create individualized learning paths by recommending content, modules, or assessments based on a students progress</p>
+                                        <h3>Mirchi Masala</h3>
+                                        <p className="my-para">Flutter App Development Project. With the Masala app, ordering your favorite food to-go has never been easier. Simply open the app, browse the menu, select your items, and voila! Special features include: restaurant.</p>
                                         <Link to='masala app.zip' target="__blank"className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
