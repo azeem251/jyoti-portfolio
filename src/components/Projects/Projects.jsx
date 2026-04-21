@@ -22,8 +22,8 @@ const Projects = () => {
                             <div className="demo">
                                 <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={'https://jyoti-two.web.app/static/media/medical.09e743bd196e3e4f30ae.jpg'} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>The Salon</h3>
-                                        <p className="my-para"> you are new to the social media world for businesses and are confused about what to post then read ahead. We have curated the perfect list of inspirational, entertaining and educational content ideas.
+                                        <h3>Medical App</h3>
+                                        <p className="my-para">App Development Self Project. The primary objective of medical education apps is to maintain a reliable database with up-to-date medical information for doctors, students and medical users.
                                         </p>
                                         <Link to='medical.zip'  download target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
@@ -47,7 +47,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 ">
+                        {/* <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
                                 <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={payment} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
@@ -59,7 +59,7 @@ const Projects = () => {
                                 </figure>
 
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
                                 <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={educationImg} alt="example-image" className="img-fuild" />
